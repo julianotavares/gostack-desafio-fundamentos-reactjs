@@ -22,12 +22,9 @@ export const DropContainer = styled.div.attrs({
   border: 1.5px dashed #969cb3;
   border-radius: 5px;
   cursor: pointer;
-
   transition: height 0.2s ease;
-
   ${(props: UploadProps): false | FlattenSimpleInterpolation =>
     props.isDragActive && dragActive}
-
   ${(props: UploadProps): false | FlattenSimpleInterpolation =>
     props.isDragReject && dragReject}
 `;
@@ -43,9 +40,7 @@ export const UploadMessage = styled.p`
   font-size: 16px;
   line-height: 24px;
   padding: 48px 0;
-
   color: ${({ type }: UploadProps) => messageColors[type || 'default']};
-
   justify-content: center;
   align-items: center;
 `;

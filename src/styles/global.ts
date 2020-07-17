@@ -7,16 +7,13 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
-
   body {
     background: #F0F2F5 ;
     -webkit-font-smoothing: antialiased
   }
-
   body, input, button {
     font: 16px "Poppins", sans-serif;
   }
-
   button {
     cursor: pointer;
   }
